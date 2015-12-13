@@ -1,0 +1,6 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: Git creates a database to internally store commits and file versions.
+   You have to create a repository, because git operates on the repository and
+   not directly on files.
+

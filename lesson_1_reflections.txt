@@ -1,0 +1,39 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: It narrowed down the number of lines that had to be checked, saving me a lot of time.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Sometimes you need to undo changes made to the application. This process can be time-consuming
+   if you don't have earlier versions of the files. But even if you do, keeping track of every single
+   change is not a viable option unless it is automated.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, 
+   like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: The downside is that you have to remember to commit (and think when to commit). On the other hand,
+   what is important about the commits is that they have meaning. 
+   If a commit is described, you (and other developers) can relate to it in the future. 
+   Commits slice your history into logical units.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+   while others, like Google Docs, treat each file separately?
+
+A: This way the state of the whole application is reflected. In an application most often files are 
+   interconnected and depend on one another. Tracking changes in every file individually is not that
+   useful in this case. I does not give you a "snapshot" of the application.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: First you use git log to see the list of all commits. Once you have located the commit that interest
+   you, you can check what changes had been made by comparing it with the previous one using git diff.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: By making you able to restore any previous stable state of the application.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: I will try to use Git for managing changes in the source code of my website.
+
+
