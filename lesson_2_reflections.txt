@@ -6,5 +6,5 @@ A: Git creates a database to internally store commits and file versions.
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-A: Unlike the working directory, the staging area contains only the files that are going to be tracked for changes (if commited).
-   But it does not contain the files that are already tracked (these belong in the repository).
+A: Unlike the working directory, the staging area contains only the files that are going to be tracked for changes (if committed).
+   Repository on the other hand contains files that have changes made to them already commited.
