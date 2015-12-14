@@ -8,3 +8,27 @@ Q: How is the staging area different from the working directory and the reposito
 
 A: Unlike the working directory, the staging area contains only the files that are going to be tracked for changes (if committed).
    Repository on the other hand contains files that have changes made to them already commited.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: While working on several features simultaneously you can stage only the files related to one feature, and then commit.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: Branches would be helpful when adding experimental features or "customized" versions of your application.
+   They let you work on some feature independently and then decide if you want to incorporate changes into the application
+   or go back to the point where you started the branch.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: Looking at the diagram you can immediately see which commit belongs to which branch.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: Git compares the two branches and tries to include commits made on both branches in the merged version.
+   Two branches become one, so it is logical to represent it as two parallel lines converging to one line at some point.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: The pro is that everything that is automated saves you time (sometimes a lot of time).
+   The con is that because Git uses a simple algorithm for merging, resolving a conflict can sometimes be tricky.
